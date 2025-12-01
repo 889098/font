@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	    <title>如何制作有版权的手写字体并出售</title>
+	    <link rel="icon" href="images/favicon.ico" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="https://www.zuoziti.com/static/vue.css">
+		<style type="text/css">
+			h1.app-name {width:75%;}
+		</style>
+	</head>
+	<body>
+		<div id="app"></div>
+		<script>
+			window.$docsify = {
+			
+				// 加载主页
+				homepage: '/第0章/README.md',
+				
+				// URL别名
+				alias: {	
+					'/index': '/第0章/README',
+					'/chapter01': '/第1章/README',
+					'/font': '/第1章/什么是手写字体',
+					'/money': '/第1章/手写字体如何赚钱',
+					'/soft': '/第1章/手写字体制作的相关软件',
+					'/chapter02': '/第2章/README',
+					'/design': '/第2章/手写模板的设计',
+					'/requirement': '/第2章/选笔与书写要求',
+					'/scan': '/第2章/手写字稿扫描方法',
+					'/rename': '/第2章/切图并重命名为UNICODE',
+					'/generate': '/第2章/导入FontForge生成字体',
+					'/merge': '/第2章/合并多个字体文件',
+					'/adjust': '/第2章/调整字体参数',
+					'/debug': '/第2章/导出字体安装调试',
+					'/chapter03': '/第3章/README',
+					'/picture': '/第3章/获取手写字体的全部字形图片',
+					'/blockchain': '/第3章/区块链存证',
+					'/DCI': '/第3章/DCI数字版权登记',
+					'/chapter04': '/第4章/README',
+					'/sale': '/第4章/如何出售手写字体',
+					'/chapter05': '/第5章/README',
+					'/xiaokai': '/第5章/小楷字库的制作',
+					'/screen': '/第5章/批量筛选超标字符',
+					'/subset': '/第5章/字体子集化',
+					'/lookup': '/第5章/自动查找错字',
+					'/pinyin': '/第5章/拼音字体的制作',	
+				},
+				
+				// 设置分页导航
+				pagination: {
+					previousText: '上一章节',
+					nextText: '下一章节',
+					crossChapter: true,
+					crossChapterText: true,
+				},
+				
+				// 加载网站名字及LOGO
+				name: '做字体网',
+				logo: '/images/logo.png',
+				
+				// 加载侧边栏
+				loadSidebar: true,
+				
+				// 侧边栏展开的层级，展示最多三级列表
+				subMaxLevel: 3,
+				
+				// 根据 _sidebar的内容自动为每个页面增加标题
+				autoHeader: true,
+				
+				// 切换页面后自动跳转到页面顶部
+				auto2top: true,
+				
+				// 点击侧边栏TOC后，页面内容上边界
+				topMargin: 30,
+				
+				// 加载导航栏
+				loadNavbar: true,
+				// loadNavbar: '_navbar.md',
+				
+				// 小屏设备下合并导航栏到侧边栏
+				mergeNavbar: true,
+				
+				// 配置搜索插件
+				search: 'auto', // 默认值
+				search: {
+					maxAge: 86400000,//过期时间,单位毫秒,默认一天
+					paths: 'auto', // or 'auto'
+					placeholder: '请输入搜索关键字',
+					noData: '没有搜到呦!',
+					depth:2
+				},	
+			}
+		</script>
+		<!-- docsify的js依赖 -->
+		<script src="https://www.zuoziti.com/static/docsify.min.js"></script>
+		<!-- 配置搜索插件 -->
+		<script src="https://www.zuoziti.com/static/search.min.js"></script>
+		<!-- 分页导航插件 -->
+		<script src="https://www.zuoziti.com/static/docsify-pagination.min.js"></script>
+		<!-- 开启离线模式，配置文件是网站根目录下的sw.js -->
+		<script>
+			if (typeof navigator.serviceWorker !== 'undefined') {
+				navigator.serviceWorker.register('sw.js')
+			}
+		</script>
+		<!-- 51.LA统计 -->
+		<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
+		<script>LA.init({id:"Jpo8eHVphjNjZYQH",ck:"Jpo8eHVphjNjZYQH"})</script>
+	</body>
+</html>
